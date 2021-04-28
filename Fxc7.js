@@ -107,9 +107,9 @@ const { wait, simih, getBuffer, h2k, banner, generateMessageID, getGroupAdmins, 
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:Farhan\n'
-            + 'ORG:Owner FXC7;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=628311800241:+62 831-1800-241\n'
+            + 'FN:Jenovva\n'
+            + 'ORG:Owner Jeno-bot;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6289604138024:+62 896-0413-8024\n'
             + 'END:VCARD'
 
 function kyun(seconds){
@@ -140,7 +140,7 @@ return '```' + string + '```'
 }
 
 function addMetadata(packname, author) {
-				if (!packname) packname = 'termux-bot-wa'; if (!author) author = ' Fxc7';
+				if (!packname) packname = 'Jeno-bot'; if (!author) author = ' Jenovva';
 				author = author.replace(/[^a-zA-Z0-9]/g, '');
 				let name = `${author}_${packname}`
 
